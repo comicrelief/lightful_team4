@@ -74,7 +74,8 @@ footer a {
   line-height: 18px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  margin-top: 20px; }
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif; }
 
 @media (max-width: 550px) {
   header {
