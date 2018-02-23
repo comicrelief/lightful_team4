@@ -29,7 +29,6 @@ header {
   margin: 0 auto;
   width: 400px;
   max-width: 100%; 
-  &-1 {
     p {
       margin-top: 20px;
       text-align: center;
@@ -61,4 +60,8 @@ header {
       padding: 10px;
     }
   }
-}
+  .charity-info {
+    p {
+      text-align: left;
+    }
+  }

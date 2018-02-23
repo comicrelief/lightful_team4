@@ -45,14 +45,14 @@ class App extends Component {
           <h3>Here's how you can help</h3>
           <i className="icon icon-cross" />
         </header>
-      <div className="page page-1">
+      <div className="page">
         <p>
           Comic Relief are helping fundraise for projects which work towards reducing homelessness
         </p>
-        <p>
-          {this.state.charity}
-          {this.state.desc}
-        </p>
+        <div className="charity-info">
+          <h1>{this.state.charity}</h1>
+          <p>{this.state.desc}</p>
+        </div>
         <footer>
           <h2>Give £10 to help</h2>
           <button>Donate</button>
