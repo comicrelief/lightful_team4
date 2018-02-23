@@ -57,7 +57,7 @@ class App extends Component {
         </div>
         <footer>
           <h2>Give £10 to help</h2>
-          <button>Donate</button>
+            <a href="https://appdonate.sportrelief.com/?amount=10">Donate</a>
         </footer>
       </div>
       </div>

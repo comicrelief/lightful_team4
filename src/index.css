@@ -39,7 +39,7 @@ header {
     .page footer h2 {
       text-align: center;
       font-size: 24px; }
-  .page button {
+  .page a {
     width: 100%;
     /* Rectangle 2: */
     background: #F04257;
@@ -50,7 +50,9 @@ header {
     color: #FFFFFF;
     letter-spacing: 0;
     border: none;
-    padding: 10px; }
+    padding: 10px;
+    display: inline-block; }
 
-.charity-info p {
+.charity-info p, .charity-info h1 {
+  font-weight: 600;
   text-align: left; }
