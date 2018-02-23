@@ -2,8 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: red;
-}
+  background: red; }
 
 header {
   width: 100%;
@@ -13,18 +12,13 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
-}
+  padding: 20px; }
 
 .page {
-  height: 100vh; 
-  &-1 {
-    background: red;
-  }
-  &-2 {
-    background: blue;
-  }
-  &-3 {
-    background: purple;
-  }
-}
+  height: 100vh; }
+  .page-1 {
+    background: red; }
+  .page-2 {
+    background: blue; }
+  .page-3 {
+    background: purple; }
