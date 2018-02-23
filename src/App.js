@@ -11,13 +11,14 @@ class App extends Component {
     super(props);
     this.state = {
       charity: 'N/A',
-      desc: 'N/A'
+      desc: 'N/A',
+      url: 'N/A'
     };
   }
 
   componentDidMount() {
-    // this.fetchCharity("mental-health");
-    this.fetchCharity("homelessness");
+    this.fetchCharity("mental-health");
+    // this.fetchCharity("homelessness");
   }
 
 
@@ -30,6 +31,7 @@ class App extends Component {
         this.setState({
           charity: json[0].charity,
           desc: json[0].copywritten_summary,
+          url: json[0].url,
         });
       })
       .catch((err) => {
