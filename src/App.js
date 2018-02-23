@@ -17,10 +17,22 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.fetchCharity("mental-health");
-    // this.fetchCharity("homelessness");
+    if (this.getParam("topic") == "m") {
+      this.fetchCharity("mental-health");
+    } else {
+      this.fetchCharity("homelessness");
+    }
   }
 
+  getParam(param) {
+    var url = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+    for (var i=0;i<url.length;i++) {
+      var params = url[i].split("=");
+      if(params[0] == param)
+        return params[1];
+    }
+    return false;
+  }
 
   fetchCharity(topic) {
     return fetch(endpoint + topic)
