@@ -43,7 +43,7 @@ class App extends Component {
         <header className="header">
           <img src="https://i0.wp.com/quaysnews.net/wp-content/uploads/2017/03/cr.png?fit=2000%2C1084" />
           <h3>Here's how you can help</h3>
-          <i className="icon icon-cross" />
+          <i className="icon icon-arrow-down" />
         </header>
       <div className="page">
         <p>
