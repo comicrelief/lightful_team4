@@ -73,7 +73,8 @@ footer a {
   font-size: 18px;
   line-height: 18px;
   letter-spacing: 0.1em;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-top: 20px; }
 
 @media (max-width: 550px) {
   header {
