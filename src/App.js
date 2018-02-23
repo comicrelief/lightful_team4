@@ -6,9 +6,10 @@ class App extends Component {
   render() {
     return (
       <div className="wrapper">
-        <div className="page page-1">
-          
-        </div>
+      <header className="header">
+      <h3>How to help</h3>
+      <i class="icon icon-cross" />
+      </header>
       </div>
     );
   }
