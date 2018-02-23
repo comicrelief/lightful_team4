@@ -53,7 +53,8 @@ class App extends Component {
         </p>
         <div className="charity-info">
           <h1>{this.state.charity}</h1>
-          <p>{this.state.desc}</p>
+            <p>{this.state.desc}</p>
+            <a href={this.state.url}>Read more about this cause</a>
         </div>
         <footer>
           <h2>Give £10 to help</h2>

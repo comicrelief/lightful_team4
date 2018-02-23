@@ -5,7 +5,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #FFFFFF;
   background: #061d38;
-  font-family: "Founders-Grotesk-Semibold",helvetica,arial,sans-serif; }
+  font-family: 'Open Sans', sans-serif; }
 
 header {
   width: 100%;
@@ -20,7 +20,9 @@ header {
   header img {
     width: 50px; }
   header h3 {
-    font-size: 32px; }
+    font-size: 32px;
+    margin: 0;
+    margin-left: -30px; }
 
 .page {
   height: 100vh;
@@ -42,30 +44,39 @@ header {
     .page footer h2 {
       text-align: center;
       font-size: 24px; }
-  .page a {
-    width: 100%;
-    /* Rectangle 2: */
-    background: #FFFFFF;
-    border-radius: 5px;
-    /* Donate: */
-    font-family: OpenSans-Bold;
-    font-size: 18px;
-    color: #000000;
-    letter-spacing: 0;
-    border: none;
-    padding: 20px;
-    display: inline-block;
-    font-size: 18px;
-    line-height: 18px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase; }
 
-.charity-info p, .charity-info h1 {
+.charity-info {
   font-weight: 600;
-  text-align: center; }
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px; }
+  .charity-info a {
+    color: #0fa;
+    font-weight: 200; }
+
+.read-more {
+  text-align: left; }
+
+footer a {
+  width: 100%;
+  /* Rectangle 2: */
+  background: #FFFFFF;
+  border-radius: 5px;
+  /* Donate: */
+  font-family: OpenSans-Bold;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  border: none;
+  padding: 20px;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase; }
 
 @media (max-width: 550px) {
   header {
-    padding: 5px; }
+    padding: 15px; }
     header h3 {
       font-size: 20px; } }
