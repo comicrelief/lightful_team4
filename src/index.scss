@@ -6,6 +6,9 @@ body {
 }
 
 header {
+  img {
+    width: 50px;
+  }
   h3 {
       font-size: 18px;
   }
@@ -22,16 +25,40 @@ header {
 }
 
 .page {
-  height: 100vh; 
+  height: 100vh;
+  margin: 0 auto;
+  width: 400px;
+  max-width: 100%; 
   &-1 {
+    p {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 14px;
+    }
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 20px;
     padding-top: 100px;
+    footer {
+      text-align: center;
+      h2 {
+      text-align: center;
+      font-size: 24px;
+    }
+    }
     button {
-      width: 80%;
-      align-self: center;
+      width: 100%;
+      /* Rectangle 2: */
+      background: #F04257;
+      border-radius: 30px;
+      /* Donate: */
+      font-family: OpenSans-Bold;
+      font-size: 18px;
+      color: #FFFFFF;
+      letter-spacing: 0;
+      border: none;
+      padding: 10px;
     }
   }
 }
