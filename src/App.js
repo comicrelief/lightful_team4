@@ -40,12 +40,18 @@ class App extends Component {
   render() {
     return (
       <div className="wrapper">
-      <header className="header">
-      <h3>How to help</h3>
-      <p>{this.state.charity}</p>
-      <p>{this.state.desc}</p>
-      <i class="icon icon-cross" />
-      </header>
+        <header className="header">
+          <img src="../cr.png" />
+          <h3>Here's how you can help</h3>
+          <i className="icon icon-cross" />
+        </header>
+      <div className="page page-1">
+        <p>
+          {this.state.charity}
+          {this.state.desc}
+        </p>
+        <button>Donate</button>
+      </div>
       </div>
     );
   }
